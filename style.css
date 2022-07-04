@@ -56,8 +56,9 @@ header nav ul li a {
   text-decoration: none;
   padding-bottom: 2px;
 }
- /* using pseudo-classes */
- 
+
+/* using pseudo-classes */
+
 header nav ul li a:hover {
   color: rgb(131, 211, 221);
   font-size: large;
@@ -198,7 +199,7 @@ section {
   flex: 2 5%;
 }
 
- figcaption {
+figcaption {
   position: absolute;
   font-size: 17px;
   font-style: italic;
@@ -212,7 +213,7 @@ section {
   margin-top: -8em;
 }
 
- figcaption:hover {
+figcaption:hover {
   color: rgb(204, 248, 8);
   background-color: var(--secondary-color);
   font-size: large;
@@ -257,6 +258,7 @@ main {
   margin-bottom: -6em;
   padding: 10px;
 }
+
 /* contact section styling */
 
 .contact-info {
@@ -298,10 +300,11 @@ main {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--primary-color);
 }
+
 /* code for media query */
 
 @media screen and (max-width: 990px) {
-  main, nav {
+  main {
     flex-direction: column;
   }
   aside img {
@@ -311,5 +314,35 @@ main {
   .flex-items {
     margin-top: -15%;
     margin-bottom: 10%;
+  }
+  header {
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.5;
+    text-align: center;
+  }
+  header nav ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .contact-info ul {
+    width: 100%;
+    justify-content: left;
+    flex-direction: column;
+  }
+  .contact-info ul li a {
+    font-size: 18px;
+    line-height: 2;
   }
 }
