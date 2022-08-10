@@ -208,9 +208,9 @@ figcaption {
   border: solid 1px var(--primary-color);
   background-color: rgb(107, 147, 226);
   margin-left: 1px;
-  margin-bottom: 10%;
+  margin-bottom: 0%;
   box-shadow: 5px 5px 5px #adbcd8;
-  margin-top: -8em;
+  margin-top: -7em;
 }
 
 figcaption:hover {
@@ -231,25 +231,28 @@ figcaption:hover {
 
 .card {
   padding: 10px;
+  margin-bottom: 4%;
 }
 
 .card img {
+  position: relative;
   width: 100%;
   height: 32vh;
+
 }
 
 aside {
-  flex: 2;
+  flex: 1;
   background-color: var(--primary-color);
-  padding: 20px;
+  /* padding: 20px; */
   text-align: left;
   width: 100%;
   margin-bottom: 5em;
 }
 
 aside img {
-  width: 130%;
-  height: 80vh;
+  width: 80%;
+  height: 50vh;
 }
 
 main {
@@ -344,4 +347,5 @@ main {
     font-size: 18px;
     line-height: 2;
   }
+  
 }
