@@ -22,7 +22,8 @@ body {
 
 header {
   padding: 10px 15px;
-  background-color: #0d203ae7;
+  /* background-color: #0d203ae7; */
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   /* Turns this element into a flexbox */
   display: flex;
   justify-content: space-between;
@@ -99,7 +100,8 @@ section {
   font-weight: lighter;
   color: var(--primary-color);
   margin-top: 300px;
-  background-color: rgb(28, 70, 133);
+  background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
+  /* background-color: rgb(28, 70, 133); */
 }
 
 /* apply styles to about section */
@@ -293,7 +295,8 @@ main {
 
 .footer {
   width: 100%;
-  background-color: #0d203ae7;
+  background-image: linear-gradient(to top, #28d1d1 0%, #330867 100%);
+  /* background-color: #0d203ae7; */
   display: flex;
   justify-content: center;
 }
